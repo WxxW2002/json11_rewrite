@@ -40,3 +40,6 @@ JSON values can have their values queried and inspected:
     std::string str = json[0]["k"].string_value();
 
 For more documentation see json11.hpp.
+
+---
+This repository is a fork of the original json11 repository by Dropbox, aiming to rewrite the library in C++17 and add new features. The original repository can be found [here](https://github.com/dropbox/json11).
